@@ -1,0 +1,15 @@
+013284737X,Data Structure and Algorithms,Mark Weiss,T
+1449355730,Learning Python 5th Edition,Mark Lutz,F
+0131103628,The C Programming Language,Brian Kernighan,T
+0201633612,Design Patterns,Erich Gamma,F
+0596007124,Head First Design Patterns,Eric Freeman,F
+0321563840,Introduction to the Theory of Computation,Michael Sipser,T
+0201485672,Refactoring,Martin Fowler,F
+0134093410,Computer Networking,James Kurose,T
+1118531647,Artificial Intelligence,Amit Konar,F
+0132350882,Clean Code,Robert Martin,T
+0201485672,Patterns of Enterprise Application Architecture,Martin Fowler,F
+0321349601,Effective Java,Joshua Bloch,T
+0135974445,Introduction to Algorithms,Thomas H. Cormen,T
+0201442333,Operating System Concepts,Abraham Silberschatz,F
+0596009208,Python Cookbook,David Beazley,F
