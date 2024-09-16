@@ -10,9 +10,6 @@ public class Main {
         Student[] students = createStudentList();
         Book[] books = createBookList();
 
-        for (int i = 0; i < students.length; i++) {
-            System.out.println(books[i]);
-        }
 
     }
 
@@ -32,6 +29,29 @@ public class Main {
 
     public static void addNewBook(Book[] books, Book book) {
         books[books.length - 1] = book;
+    }
+
+    public static void serachByISBN(Book[] books, String isbn) {
+        for (int i = 0; i < books.length; i++) {
+            if (books[i].getIsbn().equals(isbn)) {
+                System.out.println(books[i]);
+                return;
+            }
+        }
+        System.out.println("No book found with the ISBN: " + isbn);
+    }
+
+    public static void serachByName(Book[] books, String name) {
+        boolean isThere = false;
+        for (int i = 0; i < books.length; i++) {
+            if (books[i].getTitle().contains(name)) {
+                System.out.println(books[i]);
+                isThere = true;
+            }
+        }
+        if (!isThere) {
+            System.out.println("No book found with the name: " + name);
+        }
     }
 
     public static Student[] createStudentList() {
