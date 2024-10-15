@@ -10,6 +10,7 @@ public class Main {
         Student[] students = createStudentList();
         ArrayList<NewBook> books = createBookList();
         boolean flag = true;
+        System.out.println();
 
         System.out.println("Welcome to Library application!");
 
